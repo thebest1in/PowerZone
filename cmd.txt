@@ -1,0 +1,32 @@
+
+### Guide d'installation de l'application Laravel
+
+1. Mettre à jour les dépendances du projet
+   Exécutez la commande suivante pour mettre à jour les dépendances du projet Laravel :
+   ```bash
+   composer update
+   ```
+2. Installer les dépendances
+   Si ce n'est pas déjà fait, installez toutes les dépendances nécessaires à l'application avec la commande :
+   ```bash
+   composer install
+   ```
+
+3. Générer la clé d'application
+   Laravel nécessite une clé unique pour sécuriser les données. Générez cette clé avec la commande suivante :
+   ```bash
+   php artisan key:generate
+   ```
+
+4. Importer la base de données
+   Importez manuellement la base de données `db-powerzone` sur votre serveur local à l'aide d'un outil comme phpMyAdmin ou via la ligne de commande MySQL.
+
+5. Lancer le serveur
+   Une fois tout configuré, lancez le serveur de développement Laravel avec :
+   ```bash
+   php artisan serve
+   ```
+
+
+
+
