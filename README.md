@@ -19,7 +19,7 @@ php artisan key:generate
 ### 4. Import the Database
 Import the database db-powerzone manually on your local server using a tool like phpMyAdmin or through the MySQL command line.
 
-5. Start the Server
+### 5. Start the Server
 Once everything is set up, run the Laravel development server using:
 
 ```bash
